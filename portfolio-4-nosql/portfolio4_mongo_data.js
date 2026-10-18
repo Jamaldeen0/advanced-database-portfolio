@@ -1,8 +1,3 @@
-// ZAARH Collections: Portfolio 4, MongoDB (document model)
-// Paste this whole script into the MONGOSH shell in MongoDB Compass.
-// It can be run more than once: it drops and recreates the four collections each time.
-// Data matches portfolio-1-database-design/zaarh_data.sql (customers, products, ingredients, orders 1 to 3).
-
 db = db.getSiblingDB("zaarh_nosql");
 
 db.customers.drop();
