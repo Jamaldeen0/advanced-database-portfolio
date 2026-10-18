@@ -1,9 +1,3 @@
--- ZAARH Collections: Portfolio 1 sample data
--- Run AFTER zaarh_schema.sql, on an empty set of tables.
--- Running it twice will duplicate rows.
--- Ingredient costs come from the real ZAARH inventory.
--- Customers, product prices, orders and payments are invented sample data.
-
 USE zaarh;
 
 INSERT INTO Customer (name, phone_number, address, customer_type) VALUES
@@ -32,7 +26,7 @@ INSERT INTO Orders (customer_id, order_date) VALUES
 (2, '2026-10-03 10:15:00'),
 (3, '2026-10-05 16:45:00');
 
--- Order 2 is a wholesale order: price_at_order (5500) is lower than the list price (6500)
+-- Order 2 is a wholesale order
 INSERT INTO OrderItem (order_id, product_id, quantity, price_at_order) VALUES
 (1, 1, 2, 8000.00),
 (2, 3, 10, 5500.00),
