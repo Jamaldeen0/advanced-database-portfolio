@@ -1,7 +1,3 @@
--- ZAARH Collections: Portfolio 1 schema (8 tables)
--- Run this on a fresh database. Tables are created parents-first so that
--- every foreign key points to a table that already exists.
-
 CREATE DATABASE IF NOT EXISTS zaarh;
 USE zaarh;
 
