@@ -1,9 +1,9 @@
 # MIT 8103 Advanced Database Systems: Individual Practical Database Portfolio
 
-**Student:** Jamaldeen Olajide Sulaiman
-**Student ID:** 301917084
-**Programme:** Master of Information Technology, 2026/2027 session, First Semester Continuous Assessment
-**Case study:** ZAARH Collections, an early-stage perfume oil business in Nigeria
+-**Student:** Jamaldeen Olajide Sulaiman
+-**Student ID:** 301917084
+-**Programme:** Master of Information Technology, 2026/2027 session, First Semester Continuous Assessment
+-**Case study:** ZAARH Collections, an early-stage perfume oil business in Nigeria
 
 ## Case study
 
